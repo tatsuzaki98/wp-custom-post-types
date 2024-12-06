@@ -1,0 +1,15 @@
+{
+  "name": "aibos-wp-template",
+  "version": "1.0.0",
+  "description": "Start WordPress server",
+  "main": "tailwind.config.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "watch": "npx tailwindcss -i ./tailwind.css -o ./greenleaf/global.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
